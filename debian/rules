@@ -23,6 +23,7 @@ CONFIG := --prefix=${TARGET_DIR} \
 	--disable-xlib \
 	--enable-lto \
 	--enable-gpl \
+	--enable-nonfree \
 	--enable-version3 \
 	--enable-shared \
 	--enable-gmp \
