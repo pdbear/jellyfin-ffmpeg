@@ -49,9 +49,6 @@ CONFIG := --prefix=${TARGET_DIR} \
 	--enable-libzvbi \
 	--enable-libzimg \
 	--enable-libfdk-aac \
-        --enable-debug=3 \
-        --disable-optimizations \
-        --disable-stripping \
 
 CONFIG_x86 := --arch=amd64 \
 	--enable-libshaderc \
