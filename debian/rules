@@ -49,6 +49,7 @@ CONFIG := --prefix=${TARGET_DIR} \
 	--enable-libzvbi \
 	--enable-libzimg \
 	--enable-libfdk-aac \
+	--enable-nonfree \
 
 CONFIG_x86 := --arch=amd64 \
 	--enable-libshaderc \
